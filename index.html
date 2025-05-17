@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bortoni - Felight</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <!-- Logo -->
+            <a href="#" class="navbar__logo" style="text-decoration: none !important; border-bottom: none !important;">
+                <img src="assets/bortoni-logo.png" alt="Bortoni Logo" class="bortoni-logo" width="40" height="40">
+                <span>BORTONI</span>
+            </a>
+
+            <!-- Desktop Menu -->
+            <div class="navbar__menu">
+                <a href="#hero" class="navbar__link">Home</a>
+                <a href="#problem" class="navbar__link">Problem</a>
+                <a href="#solution" class="navbar__link">Solution</a>
+                <a href="#impact" class="navbar__link">Impact</a>
+                <a href="#operations" class="navbar__link">Operations</a>
+                <a href="#Team" class="navbar__link">Team</a>
+                <a href="#about-us" class="navbar__link">About Us</a>
+                <a href="#contact" class="navbar__link">Contact</a>
+            </div>
+
+            <!-- Navbar Actions -->
+            <div class="navbar__actions">
+                <!-- Theme Toggle -->
+                <div class="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                    <div class="theme-toggle__slider"></div>
+                </div>
+                
+                <!-- Hamburger Menu Button -->
+                <button class="hamburger-menu" aria-label="Toggle Menu" aria-expanded="false">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <a href="#hero" class="mobile-menu__link">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </a>
+            <a href="#problem" class="mobile-menu__link">
+                <i class="fas fa-exclamation-circle"></i>
+                <span>Problem</span>
+            </a>
+            <a href="#solution" class="mobile-menu__link">
+                <i class="fas fa-lightbulb"></i>
+                <span>Solution</span>
+            </a>
+            <div class="mobile-menu__divider"></div>
+            <a href="#impact" class="mobile-menu__link">
+                <i class="fas fa-chart-line"></i>
+                <span>Impact</span>
+            </a>
+            <a href="#operations" class="mobile-menu__link">
+                <i class="fas fa-cogs"></i>
+                <span>Operations</span>
+            </a>
+            <a href="#Team" class="mobile-menu__link">
+                <i class="fas fa-users"></i>
+                <span>Team</span>
+            </a>
+            <a href="#about-us" class="mobile-menu__link">
+                <i class="fas fa-info-circle"></i>
+                <span>About Us</span>
+            </a>
+            <a href="#partners" class="mobile-menu__link">
+                <i class="fas fa-handshake"></i>
+                <span>Partners</span>
+            </a>
+            <a href="#media" class="mobile-menu__link">
+                <i class="fas fa-newspaper"></i>
+                <span>Media</span>
+            </a>
+            <a href="#contact" class="mobile-menu__link">
+                <i class="fas fa-envelope"></i>
+                <span>Contact</span>
+            </a>
+            <div class="mobile-menu__divider"></div>
+            <!-- Mobile Theme Toggle Label -->
+            <div class="mobile-menu__link mobile-theme-label">
+                <i class="fas fa-palette"></i>
+                <span>Theme Mode</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Clean Design -->
+    <section id="hero" class="hero">
+        <div class="hero__particles"></div>
+        <div class="hero__container">
+            <div class="hero__content-wrapper">
+                <div class="hero__content">
+                    <h1 class="hero__title">Revolutionizing Fish Farming with Felight</h1>
+                    <p class="hero__subtitle">Experience the future of technology today with our innovative solution that transforms the aquaculture industry.</p>
+                    <div class="hero__cta">
+                        <button class="btn btn--primary">Explore Felight</button>
+                        <button class="btn btn--secondary">Order Now</button>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img src="assets/felight-product-new.png" alt="Felight Product" class="hero__img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Minimalistic Section Transition -->
+    <div class="section-transition"></div>
+
+    <!-- About Us Section -->
+    <section id="about-us" class="about-us">
+        <div class="about-us__container container">
+            <h2 class="section-title">About Us</h2>
+            
+            <!-- Mission/Vision/Story Cards -->
+            <div class="about-us__content">
+                <div class="about-us__intro">
+                    <div class="about-intro__text">
+                        <h3 class="about-intro__title">Leading Innovation in Aquaculture</h3>
+                        <p class="about-intro__desc">Bortoni is revolutionizing the fish farming industry with sustainable, technology-driven solutions that increase yield while protecting natural resources. We combine cutting-edge technology with ecological responsibility to create the fish farms of tomorrow.</p>
+                    </div>
+                </div>
+                
+                <div class="about-us__cards">
+                    <div class="about-card">
+                        <div class="about-card__icon">
+                            <i class="fas fa-history"></i>
+                        </div>
+                        <h3 class="about-card__title">Our Story</h3>
+                        <p class="about-card__text">Founded in 2014, Bortoni emerged from a simple idea: fish farming should be both productive and sustainable. Our team of aquaculture experts and engineers developed Felight to address the critical challenges facing the industry.</p>
+                    </div>
+                    
+                    <div class="about-card about-card--featured">
+                        <div class="about-card__icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3 class="about-card__title">Our Mission</h3>
+                        <p class="about-card__text">To transform aquaculture through innovative technology that maximizes productivity while minimizing environmental impact. We aim to ensure food security and preserve aquatic ecosystems for future generations.</p>
+                    </div>
+                    
+                    <div class="about-card">
+                        <div class="about-card__icon">
+                            <i class="fas fa-compass"></i>
+                        </div>
+                        <h3 class="about-card__title">Our Vision</h3>
+                        <p class="about-card__text">A world where aquaculture meets rising global food demands without depleting natural resources. We envision Felight technology in every fish farm, creating a harmony between production efficiency and environmental stewardship.</p>
+                    </div>
+                </div>
+                
+                <!-- Company Statistics -->
+                <div class="about-stats">
+                    <h3 class="about-section__title">Our Impact By Numbers</h3>
+                    <div class="about-stats__grid">
+                        <div class="about-stat-card">
+                            <div class="about-stat-card__number" data-count="750">0</div>
+                            <div class="about-stat-card__label">Installations Worldwide</div>
+                        </div>
+                        <div class="about-stat-card">
+                            <div class="about-stat-card__number" data-count="45">0</div>
+                            <div class="about-stat-card__label">Countries Served</div>
+                        </div>
+                        <div class="about-stat-card">
+                            <div class="about-stat-card__number" data-count="65">0</div>
+                            <div class="about-stat-card__label">Percent Resource Reduction</div>
+                        </div>
+                        <div class="about-stat-card">
+                            <div class="about-stat-card__number" data-count="8500">0</div>
+                            <div class="about-stat-card__label">Tons of Feed Saved Annually</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Core Values -->
+                <div class="about-values">
+                    <h3 class="about-section__title">Our Core Values</h3>
+                    <div class="about-values__grid">
+                        <div class="about-value-card">
+                            <div class="about-value-card__icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <h4 class="about-value-card__title">Sustainability</h4>
+                            <p class="about-value-card__text">Every decision we make considers long-term environmental impact and resource conservation.</p>
+                        </div>
+                        <div class="about-value-card">
+                            <div class="about-value-card__icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <h4 class="about-value-card__title">Innovation</h4>
+                            <p class="about-value-card__text">We constantly push the boundaries of what's possible in aquaculture technology.</p>
+                        </div>
+                        <div class="about-value-card">
+                            <div class="about-value-card__icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <h4 class="about-value-card__title">Integrity</h4>
+                            <p class="about-value-card__text">We operate with transparency and honesty in all our business practices.</p>
+                        </div>
+                        <div class="about-value-card">
+                            <div class="about-value-card__icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h4 class="about-value-card__title">Community</h4>
+                            <p class="about-value-card__text">We support the communities where we operate and the global aquaculture ecosystem.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Company Timeline -->
+                <div class="about-timeline">
+                    <h3 class="about-section__title">Our Journey</h3>
+                    <div class="journey-wrapper">
+                        <div class="journey-path"></div>
+                        
+                        <div class="journey-item" data-year="2014">
+                            <div class="journey-content">
+                                <span class="journey-year">2014</span>
+                                <div class="journey-dot"></div>
+                                <div class="journey-card">
+                                    <div class="journey-icon">
+                                        <i class="fas fa-rocket"></i>
+                                    </div>
+                                    <h4>Company Founded</h4>
+                                    <p>Bortoni was established with a mission to revolutionize aquaculture.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="journey-item" data-year="2016">
+                            <div class="journey-content">
+                                <span class="journey-year">2016</span>
+                                <div class="journey-dot"></div>
+                                <div class="journey-card">
+                                    <div class="journey-icon">
+                                        <i class="fas fa-flask"></i>
+                                    </div>
+                                    <h4>First Prototype</h4>
+                                    <p>Initial version of Felight successfully tested in pilot farms across three countries.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="journey-item" data-year="2018">
+                            <div class="journey-content">
+                                <span class="journey-year">2018</span>
+                                <div class="journey-dot"></div>
+                                <div class="journey-card">
+                                    <div class="journey-icon">
+                                        <i class="fas fa-globe-americas"></i>
+                                    </div>
+                                    <h4>International Expansion</h4>
+                                    <p>Operations expanded to 15 countries across Asia and Europe with new regional offices.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="journey-item" data-year="2020">
+                            <div class="journey-content">
+                                <span class="journey-year">2020</span>
+                                <div class="journey-dot"></div>
+                                <div class="journey-card journey-card--featured">
+                                    <div class="journey-icon">
+                                        <i class="fas fa-brain"></i>
+                                    </div>
+                                    <h4>Breakthrough AI Integration</h4>
+                                    <p>Advanced machine learning algorithms incorporated into Felight systems, increasing efficiency by 40%.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="journey-item" data-year="2022">
+                            <div class="journey-content">
+                                <span class="journey-year">2022</span>
+                                <div class="journey-dot"></div>
+                                <div class="journey-card">
+                                    <div class="journey-icon">
+                                        <i class="fas fa-users"></i>
+                                    </div>
+                                    <h4>100th Team Member</h4>
+                                    <p>Milestone reached with our global team expanding across 12 countries.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="journey-item" data-year="2023">
+                            <div class="journey-content">
+                                <span class="journey-year">2023</span>
+                                <div class="journey-dot"></div>
+                                <div class="journey-card">
+                                    <div class="journey-icon">
+                                        <i class="fas fa-award"></i>
+                                    </div>
+                                    <h4>Sustainability Award</h4>
+                                    <p>Recognized with Global Aquaculture Innovation Award for environmental impact.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="journey-item" data-year="2025">
+                            <div class="journey-content">
+                                <span class="journey-year">2025</span>
+                                <div class="journey-dot journey-dot--pulse"></div>
+                                <div class="journey-card journey-card--current">
+                                    <div class="journey-icon">
+                                        <i class="fas fa-vial"></i>
+                                    </div>
+                                    <h4>Felight Pro Launch</h4>
+                                    <p>Our next-generation technology platform launches globally with enhanced features.</p>
+                                    <div class="journey-badge">Latest</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Details with Image and Text -->
+                <div class="about-us__details">
+                    <div class="about-us__image-container">
+                        <img src="https://picsum.photos/seed/about-us/800/500" alt="Our Company" class="about-us__image">
+                        <div class="about-us__image-overlay">
+                            <span class="about-us__years">10+</span>
+                            <span class="about-us__experience">Years of Excellence</span>
+                        </div>
+                    </div>
+                    <div class="about-us__text">
+                        <h3 class="about-text__title">Why Choose Bortoni</h3>
+                        <p>Lorem, ipsum.</p>
+                        
+                        <p>Lorem ipsum dolor sit.</p>
+                        
+                        <div class="about-text__features">
+                            <div class="about-text__feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Expert team with 30+ years of combined experience</span>
+                            </div>
+                            <div class="about-text__feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Continuous R&D with annual technology updates</span>
+                            </div>
+                            <div class="about-text__feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>24/7 technical support and monitoring</span>
+                            </div>
+                        </div>
+                        
+                        <div class="about-us__cta">
+                            <button class="btn btn--primary">Learn More About Us</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial -->
+                <div class="about-testimonial">
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__quote">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-card__text">Implementing Bortoni's Felight system transformed our entire operation. We've seen a 40% reduction in feed costs while increasing production by 25%. The environmental impact has been equally impressive with significant improvements in water quality and resource usage.</p>
+                        <div class="testimonial-card__author">
+                            <img src="https://randomuser.me/api/portraits/men/42.jpg" alt="Testimonial Author" class="testimonial-card__avatar">
+                            <div class="testimonial-card__info">
+                                <h4 class="testimonial-card__name">Lorem ipsum dolor sit amet.</h4>
+                                <p class="testimonial-card__role">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, illo!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section id="problem" class="problem">
+        <div class="problem__container container">
+            <h2 class="section-title">The Problem We're Solving</h2>
+            <div class="problem__content">
+                <div class="problem__media">
+                    <div class="problem__media-container">
+                        <img src="https://picsum.photos/seed/problem/800/500" alt="Fish farming challenges" class="problem__image">
+                        <div class="problem__video-overlay">
+                            <iframe 
+                                class="problem__video"
+                                src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=0&mute=1" 
+                                title="The Problem We're Solving" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen
+                                data-src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0"
+                            ></iframe>
+                            <div class="problem__play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="problem__hover-hint">Hover to play video with sound</p>
+                </div>
+                <div class="problem__text">
+                    <h3 class="problem__subtitle">Key Challenges in Aquaculture</h3>
+                    <p class="problem__description">The aquaculture industry faces numerous challenges that impact productivity, sustainability, and profitability. Traditional fish farming methods are often resource-intensive, environmentally damaging, and difficult to scale efficiently.</p>
+                    
+                    <ul class="problem__list">
+                        <li class="problem__item">
+                            <span class="problem__bullet">•</span>
+                            <div class="problem__item-content">
+                                <strong>Complex Tech Integration</strong> - Traditional solutions require extensive setup and configuration, leading to delays and inefficiencies.
+                            </div>
+                        </li>
+                        <li class="problem__item">
+                            <span class="problem__bullet">•</span>
+                            <div class="problem__item-content">
+                                <strong>Resource Intensive</strong> - Current market solutions consume excessive resources, increasing operational costs.
+                            </div>
+                        </li>
+                        <li class="problem__item">
+                            <span class="problem__bullet">•</span>
+                            <div class="problem__item-content">
+                                <strong>Limited Scalability</strong> - Existing platforms struggle to scale effectively with growing business demands.
+                            </div>
+                        </li>
+                        <li class="problem__item">
+                            <span class="problem__bullet">•</span>
+                            <div class="problem__item-content">
+                                <strong>Environmental Impact</strong> - Conventional methods often lead to water pollution and ecosystem disruption.
+                            </div>
+                        </li>
+                        <li class="problem__item">
+                            <span class="problem__bullet">•</span>
+                            <div class="problem__item-content">
+                                <strong>High Failure Rate</strong> - Many operations fail due to inefficient monitoring and response systems.
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <div class="problem__cta">
+                        <button class="btn btn--primary">Learn More About The Challenge</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution" class="solution">
+        <div class="solution__container container">
+            <h2 class="section-title">Why Felight Works</h2>
+            <div class="solution__content">
+                <div class="solution__hero">
+                    <div class="solution__image-container">
+                        <img src="https://picsum.photos/seed/felight/800/600" alt="Felight Technology" class="solution__image">
+                        <div class="solution__image-overlay">
+                            <div class="solution__badge">
+                                <i class="fas fa-award"></i>
+                                <span>Industry Leader</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="solution__intro">
+                        <h3 class="solution__subtitle">The Felight Advantage</h3>
+                        <p class="solution__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at mauris non sem sollicitudin faucibus eget non enim. Suspendisse potenti. Nullam ut erat vitae nulla facilisis ultricies.</p>
+                    </div>
+                </div>
+                
+                <div class="solution__features">
+                    <div class="feature-card">
+                        <div class="feature-card__icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h4 class="feature-card__title">Seamless Integration</h4>
+                        <p class="feature-card__desc">Deploy in minutes, not days. Our plug-and-play system connects seamlessly with your existing infrastructure.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-card__icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4 class="feature-card__title">Resource Efficient</h4>
+                        <p class="feature-card__desc">70% less resource consumption compared to traditional systems, saving you money while benefiting the environment.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-card__icon">
+                            <i class="fas fa-expand-arrows-alt"></i>
+                        </div>
+                        <h4 class="feature-card__title">Infinitely Scalable</h4>
+                        <p class="feature-card__desc">Grow without limitations. Our solution scales seamlessly with your business needs without additional overhead.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-card__icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h4 class="feature-card__title">AI-Powered</h4>
+                        <p class="feature-card__desc">Smart automation and optimization through advanced machine learning algorithms that continuously improve.</p>
+                    </div>
+                </div>
+                
+                <div class="solution__conclusion">
+                    <p>Phasellus quis neque nec dui volutpat dictum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin luctus neque non dictum tincidunt.</p>
+                    <div class="solution__cta">
+                        <button class="btn btn--primary">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section id="impact" class="impact">
+        <div class="impact__container container">
+            <h2 class="section-title">Our Global Impact</h2>
+            
+            <div class="impact__intro">
+                <p>Measuring success beyond profit: our technology has transformed aquaculture operations worldwide while advancing environmental sustainability.</p>
+            </div>
+            
+            <div class="impact__content">
+                <!-- Statistics Dashboard -->
+                <div class="impact__stats-dashboard">
+                    <div class="impact__stat-card">
+                        <div class="impact__stat-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="impact__stat-count" data-count="15000">0</div>
+                        <div class="impact__stat-label">Felight Units Deployed</div>
+                        <div class="impact__stat-desc">Across industrial and small-scale fish farms worldwide</div>
+                    </div>
+                    
+                    <div class="impact__stat-card">
+                        <div class="impact__stat-icon">
+                            <i class="fas fa-fish"></i>
+                        </div>
+                        <div class="impact__stat-count" data-count="45">0</div>
+                        <div class="impact__stat-suffix">%</div>
+                        <div class="impact__stat-label">Increased Yield</div>
+                        <div class="impact__stat-desc">Average production improvement for Felight customers</div>
+                    </div>
+                    
+                    <div class="impact__stat-card">
+                        <div class="impact__stat-icon">
+                            <i class="fas fa-tint-slash"></i>
+                        </div>
+                        <div class="impact__stat-count" data-count="63">0</div>
+                        <div class="impact__stat-suffix">%</div>
+                        <div class="impact__stat-label">Water Saved</div>
+                        <div class="impact__stat-desc">Reduction in water usage through our recycling systems</div>
+                    </div>
+                    
+                    <div class="impact__stat-card">
+                        <div class="impact__stat-icon">
+                            <i class="fas fa-globe-americas"></i>
+                        </div>
+                        <div class="impact__stat-count" data-count="84">0</div>
+                        <div class="impact__stat-label">Countries Reached</div>
+                        <div class="impact__stat-desc">Global implementation across six continents</div>
+                    </div>
+                </div>
+                
+                <!-- Case Studies -->
+                <div class="impact__case-studies">
+                    <h3 class="impact__subtitle">Success Stories</h3>
+                    
+                    <div class="impact__cases">
+                        <div class="impact__case">
+                            <div class="impact__case-header">
+                                <img src="https://picsum.photos/seed/case1/150/150" alt="Seafood Pacific" class="impact__case-logo">
+                                <div class="impact__case-info">
+                                    <h4 class="impact__case-title">Seafood Pacific</h4>
+                                    <div class="impact__case-location">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Indonesia</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="impact__case-results">
+                                <div class="impact__case-result">
+                                    <span class="impact__result-value">+52%</span>
+                                    <span class="impact__result-label">Production</span>
+                                </div>
+                                <div class="impact__case-result">
+                                    <span class="impact__result-value">-38%</span>
+                                    <span class="impact__result-label">Costs</span>
+                                </div>
+                                <div class="impact__case-result">
+                                    <span class="impact__result-value">2.4x</span>
+                                    <span class="impact__result-label">ROI</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="impact__case">
+                            <div class="impact__case-header">
+                                <img src="https://picsum.photos/seed/case2/150/150" alt="Nordic Aqua" class="impact__case-logo">
+                                <div class="impact__case-info">
+                                    <h4 class="impact__case-title">Nordic Aqua</h4>
+                                    <div class="impact__case-location">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Norway</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="impact__case-results">
+                                <div class="impact__case-result">
+                                    <span class="impact__result-value">+47%</span>
+                                    <span class="impact__result-label">Production</span>
+                                </div>
+                                <div class="impact__case-result">
+                                    <span class="impact__result-value">-41%</span>
+                                    <span class="impact__result-label">Costs</span>
+                                </div>
+                                <div class="impact__case-result">
+                                    <span class="impact__result-value">2.1x</span>
+                                    <span class="impact__result-label">ROI</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Environmental Impact -->
+                <div class="impact__environment">
+                    <h3 class="impact__subtitle">Environmental Benefits</h3>
+                    
+                    <div class="impact__env-metrics">
+                        <div class="impact__env-metric">
+                            <div class="impact__env-icon">
+                                <i class="fas fa-water"></i>
+                            </div>
+                            <div class="impact__env-info">
+                                <h4 class="impact__env-title">Water Conservation</h4>
+                                <p class="impact__env-desc">Our closed-loop filtration systems have saved over 18 billion gallons of water worldwide.</p>
+                                <div class="impact__env-progress">
+                                    <div class="impact__progress-bar" style="width: 78%">78%</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="impact__env-metric">
+                            <div class="impact__env-icon">
+                                <i class="fas fa-seedling"></i>
+                            </div>
+                            <div class="impact__env-info">
+                                <h4 class="impact__env-title">Reduced Chemical Usage</h4>
+                                <p class="impact__env-desc">Smart monitoring has decreased antibiotic and chemical treatment needs by 64% on average.</p>
+                                <div class="impact__env-progress">
+                                    <div class="impact__progress-bar" style="width: 64%">64%</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="impact__env-metric">
+                            <div class="impact__env-icon">
+                                <i class="fas fa-trash-alt"></i>
+                            </div>
+                            <div class="impact__env-info">
+                                <h4 class="impact__env-title">Waste Reduction</h4>
+                                <p class="impact__env-desc">Feed optimization algorithms have reduced waste by 53%, preventing ecosystem contamination.</p>
+                                <div class="impact__env-progress">
+                                    <div class="impact__progress-bar" style="width: 53%">53%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Impact Map -->
+                <div class="impact__map-container">
+                    <h3 class="impact__subtitle">Global Presence</h3>
+                    <div class="impact__map">
+                        <img src="https://picsum.photos/seed/map/1200/500" alt="Global Impact Map" class="impact__map-image">
+                        <div class="impact__map-overlay">
+                            <div class="impact__map-marker" style="top: 35%; left: 20%;">
+                                <div class="impact__marker-dot"></div>
+                                <div class="impact__marker-pulse"></div>
+                            </div>
+                            <div class="impact__map-marker" style="top: 25%; left: 48%;">
+                                <div class="impact__marker-dot"></div>
+                                <div class="impact__marker-pulse"></div>
+                            </div>
+                            <div class="impact__map-marker" style="top: 60%; left: 80%;">
+                                <div class="impact__marker-dot"></div>
+                                <div class="impact__marker-pulse"></div>
+                            </div>
+                            <div class="impact__map-marker" style="top: 42%; left: 65%;">
+                                <div class="impact__marker-dot"></div>
+                                <div class="impact__marker-pulse"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="impact__map-caption">
+                        Bortoni's Felight technology is making an impact across 6 continents, with major implementation hubs in Asia, Europe, Americas, and Australia.
+                    </div>
+                </div>
+                
+                <div class="impact__cta">
+                    <button class="btn btn--primary">Download Impact Report</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Operations Section -->
+    <section id="operations" class="operations">
+        <div class="operations__container container">
+            <h2 class="section-title">Operations</h2>
+            <div class="operations__content">
+                <div class="operations__images">
+                    <div class="operations__image-container">
+                        <img src="https://picsum.photos/seed/operations1/600/400" alt="Research & Development" class="operations__image">
+                        <div class="operations__image-caption">Research & Development</div>
+                    </div>
+                    <div class="operations__image-container">
+                        <img src="https://picsum.photos/seed/operations2/600/400" alt="Manufacturing" class="operations__image">
+                        <div class="operations__image-caption">Manufacturing</div>
+                    </div>
+                    <div class="operations__image-container">
+                        <img src="https://picsum.photos/seed/operations3/600/400" alt="Quality Control" class="operations__image">
+                        <div class="operations__image-caption">Quality Control</div>
+                    </div>
+                    <div class="operations__image-container operations__image-container--large">
+                        <img src="https://picsum.photos/seed/operations4/1200/600" alt="Global Distribution Network" class="operations__image">
+                        <div class="operations__image-caption">Global Distribution Network</div>
+                    </div>
+                </div>
+                <div class="operations__text">
+                    <h3 class="operations__subtitle">How We Operate</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at mauris non sem sollicitudin faucibus eget non enim. Suspendisse potenti. Nullam ut erat vitae nulla facilisis ultricies. Curabitur facilisis, nisl eget feugiat tincidunt, enim purus blandit urna, at sagittis ligula magna vel urna.</p>
+                    
+                    <p>Phasellus quis neque nec dui volutpat dictum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin luctus neque non dictum tincidunt. Ut sollicitudin purus in arcu convallis, id fringilla mi vehicula.</p>
+                    
+                    <p>Our approach combines cutting-edge technology with sustainable practices to ensure optimal results while minimizing environmental impact. Each stage of our operation is carefully monitored and continuously improved to meet the highest standards of efficiency and quality.</p>
+                    
+                    <div class="operations__text-block">
+                        <h4 class="operations__text-title">Strategic Impact</h4>
+                        <p>Our operational framework is designed to maximize efficiency while minimizing environmental impact. By implementing cutting-edge technologies at every stage of production, from R&D to distribution, we ensure that each Felight system delivers consistent performance in diverse aquaculture environments.</p>
+                        <p>The integration of AI-driven monitoring systems allows us to continuously analyze operational data, leading to iterative improvements in our manufacturing processes and product design. This feedback loop has enabled us to reduce production waste by 37% while increasing output capacity by 42% over the past three years.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="Team" class="Team">
+        <div class="Team__container container">
+            <h2 class="section-title">Team Bortoni</h2>
+            <div class="Team__content">
+                <div class="team-leadership">
+                    <div class="team-leadership__grid">
+                        <div class="team-member">
+                            <div class="team-member__photo-wrapper">
+                                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="CEO" class="team-member__photo" loading="lazy">
+                            </div>
+                            <h3 class="team-member__name">David Anderson</h3>
+                            <p class="team-member__position">CEO & Founder</p>
+                            <p class="team-member__bio">15+ years in sustainable aquaculture with a vision to transform the industry through technology.</p>
+                            <div class="team-member__social">
+                                <a href="#" class="team-social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="team-social-link"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="team-member__photo-wrapper">
+                                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="CTO" class="team-member__photo" loading="lazy">
+                            </div>
+                            <h3 class="team-member__name">Sarah Chen</h3>
+                            <p class="team-member__position">CTO</p>
+                            <p class="team-member__bio">AI expert with background in environmental engineering and IoT systems for sustainable agriculture.</p>
+                            <div class="team-member__social">
+                                <a href="#" class="team-social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="team-social-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="team-member__photo-wrapper">
+                                <img src="https://randomuser.me/api/portraits/men/68.jpg" alt="COO" class="team-member__photo" loading="lazy">
+                            </div>
+                            <h3 class="team-member__name">Michael Rodriguez</h3>
+                            <p class="team-member__position">COO</p>
+                            <p class="team-member__bio">Operations expert with 12 years experience scaling tech solutions in 20+ countries worldwide.</p>
+                            <div class="team-member__social">
+                                <a href="#" class="team-social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="team-social-link"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="team-member__photo-wrapper">
+                                <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="Head of Research" class="team-member__photo" loading="lazy">
+                            </div>
+                            <h3 class="team-member__name">Emma Wilson</h3>
+                            <p class="team-member__position">Head of Research</p>
+                            <p class="team-member__bio">Marine biologist with PhD in sustainable aquaculture systems and water quality management.</p>
+                            <div class="team-member__social">
+                                <a href="#" class="team-social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="team-social-link"><i class="fab fa-researchgate"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Team__text">
+                    <p>Our diverse team brings together experts from aquaculture, engineering, data science, and sustainability. With team members across 12 countries, we combine global expertise with local knowledge to deliver solutions tailored to regional challenges.</p>
+                    <p>The Bortoni team is united by a shared mission to transform aquaculture through innovation and ecological responsibility. Our collaborative approach enables us to tackle complex problems from multiple perspectives, resulting in holistic solutions that address both technological and environmental considerations.</p>
+                </div>
+                <div class="Team__cta">
+                    <button class="btn btn--primary">Meet The Entire Team</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section with Carousel -->
+    <section id="partners" class="partners">
+        <div class="partners__container">
+            <h2 class="section-title">Our Partners</h2>
+            
+            <!-- Partners Carousel -->
+            <div class="partners__carousel-container">
+                <div class="partners__carousel" id="partnersCarousel">
+                    <!-- Partner logos will be added here dynamically -->
+                </div>
+                
+                <!-- Carousel Navigation Dots -->
+                <div class="carousel__dots" id="carouselDots">
+                    <!-- Dots will be added here dynamically -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Media Section -->
+    <section id="media" class="media">
+        <div class="media__container container">
+            <h2 class="section-title">Media & Recognition</h2>
+            <div class="media__grid">
+                <div class="media-photocard">
+                    <img src="https://picsum.photos/seed/media1/400/250" alt="Industry Award" class="media-photocard__img">
+                    <div class="media-photocard__content">
+                        <h3 class="media-photocard__title">Global Sustainability Award 2023</h3>
+                        <p class="media-photocard__desc">Bortoni recognized for outstanding contribution to sustainable aquaculture practices and environmental conservation efforts.</p>
+                        <a href="#" class="media-photocard__link">Read Press Release <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="media-photocard">
+                    <img src="https://picsum.photos/seed/media2/400/250" alt="Conference Presentation" class="media-photocard__img">
+                    <div class="media-photocard__content">
+                        <h3 class="media-photocard__title">AquaTech Conference 2023</h3>
+                        <p class="media-photocard__desc">Our CTO presented Felight's groundbreaking AI monitoring system at the world's largest aquaculture technology conference.</p>
+                        <a href="#" class="media-photocard__link">Watch Presentation <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="media-photocard">
+                    <img src="https://picsum.photos/seed/media3/400/250" alt="Magazine Feature" class="media-photocard__img">
+                    <div class="media-photocard__content">
+                        <h3 class="media-photocard__title">Featured in Aquaculture Today</h3>
+                        <p class="media-photocard__desc">Bortoni highlighted as one of the "Top 10 Innovators Reshaping Fish Farming" in the industry's leading publication.</p>
+                        <a href="#" class="media-photocard__link">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="media-photocard">
+                    <img src="https://picsum.photos/seed/media4/400/250" alt="Research Publication" class="media-photocard__img">
+                    <div class="media-photocard__content">
+                        <h3 class="media-photocard__title">Research Paper Publication</h3>
+                        <p class="media-photocard__desc">Our research team published findings on Felight's impact on water quality and fish health in the Journal of Sustainable Aquaculture.</p>
+                        <a href="#" class="media-photocard__link">Access Paper <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact__container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact__content">
+                <form class="contact__form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Subject (Optional)">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary">Send Message</button>
+                </form>
+                <div class="contact__social">
+                    <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon youtube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <a href="#" class="footer__logo" style="text-decoration: none !important; border-bottom: none !important;">
+                <img src="assets/bortoni-logo.png" alt="Bortoni Logo" class="bortoni-logo" width="30" height="30">
+                BORTONI
+            </a>
+            
+            <div class="footer__links">
+                <a href="#hero" class="footer__link">Home</a>
+                <a href="#problem" class="footer__link">Problem</a>
+                <a href="#solution" class="footer__link">Solution</a>
+                <a href="#impact" class="footer__link">Impact</a>
+                <a href="#about-us" class="footer__link">About</a>
+                <a href="#contact" class="footer__link">Contact</a>
+            </div>
+            
+            <div class="footer__social">
+                <a href="#" class="footer__social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="footer__social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="footer__social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="footer__social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="footer__social-icon"><i class="fab fa-youtube"></i></a>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">&copy; 2024 Bortoni. All rights reserved.</p>
+                <div class="footer__legal">
+                    <a href="#" class="footer__legal-link">Privacy Policy</a>
+                    <a href="#" class="footer__legal-link">Terms of Service</a>
+                    <a href="#" class="footer__legal-link">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        // Smooth scrolling for anchor links
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        const headerOffset = 80;
+                        const elementPosition = target.getBoundingClientRect().top;
+                        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                        
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html> 
